@@ -1,0 +1,18 @@
+api = "0.8"
+
+[buildpack]
+id = "heroku/wkhtmltopdf"
+version = "2.0.0"
+name = "wkhtmltopdf"
+homepage = "https://github.com/EoghanMcMullen/wkhtmltopdf-buildpack"
+description = "Heroku buildpack for using wkhtmltopdf."
+keywords = ["wkhtmltopdf"]
+
+[[stacks]]
+id = "*"
+
+[[buildpack.licenses]]
+type = "BSD-3-Clause"
+
+[[io.buildpacks.group]]
+uri = "https://github.com/jaGarcia/wkhtmltopdf-buildpack/archive/master.tar.gz"
