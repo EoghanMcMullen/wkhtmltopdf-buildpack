@@ -13,6 +13,3 @@ id = "*"
 
 [[buildpack.licenses]]
 type = "BSD-3-Clause"
-
-[[io.buildpacks.group]]
-uri = "https://github.com/jaGarcia/wkhtmltopdf-buildpack/archive/master.tar.gz"
